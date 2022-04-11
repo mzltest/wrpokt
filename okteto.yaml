@@ -1,0 +1,7 @@
+services:
+    wrp:
+        public: true
+        container_name: wrp
+        image: tenox7/wrp
+        ports:
+            - 80:80
